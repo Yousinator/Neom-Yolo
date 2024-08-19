@@ -29,11 +29,11 @@ To get started with this project, follow these steps to install the required Pyt
 2. **Run the Batch Script**:
 
    - Open Command Prompt (you may need to run it as Administrator).
-   - Navigate to the directory where `install_packages.bat` is saved.
+   - Navigate to the directory where `setup.bat` is saved.
    - Run the script by typing:
 
      ```batch
-     install_packages.bat
+     setup.bat
      ```
 
 3. **Verify Installation**: After running the script, ensure that the packages are installed correctly by executing:
