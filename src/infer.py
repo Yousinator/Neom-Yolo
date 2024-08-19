@@ -3,9 +3,13 @@ import yt_dlp as youtube_dl
 import os
 from ultralytics import YOLO
 
+# Ensure that a 'tmp' directory exists in the current directory
+if not os.path.exists("tmp"):
+    os.makedirs("tmp")
+
 # Define a fixed path for testing
 # This path is where the downloaded video will be temporarily stored
-temp_video_path = "/tmp/test_video.mp4"
+temp_video_path = "tmp/test_video.mp4"
 
 
 # Function to download a YouTube video using yt_dlp
